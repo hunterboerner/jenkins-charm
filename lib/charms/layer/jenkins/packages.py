@@ -23,7 +23,7 @@ APT_DEPENDENCIES = {
     "bionic": ["daemon", "openjdk-8-jre-headless"],
     "focal": ["daemon", "openjdk-8-jre-headless"],
 }
-APT_SOURCE = "deb http://pkg.jenkins-ci.org/%s binary/"
+APT_SOURCE = "deb https://pkg.jenkins-ci.org/%s binary/"
 
 
 class Packages(object):
